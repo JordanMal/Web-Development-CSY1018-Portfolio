@@ -1,3 +1,17 @@
 body {
   background: linear-gradient(white 75%, black);
 }
+
+h1.title {
+font-family:sans-serif, arial;
+font-size:250%;
+-webkit-text-stroke: 2.5px black;
+color:lime;
+height: 100px;
+position: absolute;
+left: 50%;
+top: 50%;
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+}
