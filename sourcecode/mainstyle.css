@@ -1,6 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 body {
   background: linear-gradient(white 75%, black);
 }
+
+
 
 h1.title {
 font-family:sans-serif, arial;
@@ -8,10 +16,104 @@ font-size:250%;
 -webkit-text-stroke: 2.5px black;
 color:lime;
 height: 100px;
-position: absolute;
+position: fixed;
 left: 50%;
 top: 50%;
 -moz-transform: translateX(-50%) translateY(-50%);
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
 }
+
+h2.title {
+  font-family:sans-sans-serif, arial;
+  font-size: 2em;
+  -webkit-text-stroke: 2.5px black;
+  color:lime;
+  height: 100px;
+  text-align: center;
+  position: inherit;
+  margin-bottom: -1.5%;
+
+}
+
+.column {
+  font-family: sans-serif, arial;
+  text-align: center;
+  float: left;
+  width: 20%;
+  height: 50%;
+  background-color:grey;
+  border-style: solid;
+  margin: 2.25%;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 5%;
+}
+.container {
+  font-family:sans-serif, arial;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: #f2f2f2;
+  padding: 25px;
+  background-color: grey;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+.contactinfo {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+dl.contactme  {
+  text-align: left;
+}
+
+dt {
+  font-weight:bold;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+footer {
+  font-family: Tahoma, Verdana, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #66ff33;
+  color: black;
+  border-top:solid;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
