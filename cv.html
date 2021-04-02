@@ -1,0 +1,136 @@
+<!DOCTYPE>
+<html>
+  <head>
+
+    <!--This is the title of the page itself. This usually displays itself on the browsers tabs name-->
+    <title>Portfolio - Jordan Mal</title>
+
+    <!--This is the start of all of the stylesheet that is being used for the website-->
+    <link rel="stylesheet" href="mainstyle.css" media="screen"/>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)"/>
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen and (max-width: 800px)"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+<!--This is the code for the navigation bar both for desktop and mobile view-->
+<div class="mobnav">
+  <nav id="myLinks" class="mobnav">
+  <a href="..\sourcecode\index.html">Home</a>
+  <a href="..\sourcecode\Portfolio.html">Portfolio</a>
+  <a href="..\sourcecode\Contact.html">Contact</a>
+  <a class="active" href="..\sourcecode\cv.html">CV</a>
+  <a href="..\sourcecode\sitereport.html">Site Report</a>
+</nav>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!--This is the title you see in the middle of the page-->
+    <header>
+      <h2 class="title">CV</h2>
+    </header>
+
+<!--This is the first row and the two collums on the page-->
+<div class="cvfirstrow">
+  <div class="cvfirstcollumn"
+    <h1><img src="../images/passport_pic.jpg" alt="Jordan Mal" class="cvpicture"></h1>
+  </div>
+  <div class="cvsecondcollumn"
+  <h2><p class="cvfullname">Jordan Mal</p></h2>
+  <p class="cvocupation">Full-Time at the University of Northampton as a Student</p>
+  <p class="cvocupation">Part-Time at JD Sports Fashion PLC as a Sales Assistant</p>
+
+    <div class="cvalt">
+      <p>Scroll down to explore...</p>
+      <h4>OR</h4>
+      <a href="../images/cv_pdf.pdf" download="cv_pdf"><button class="cvbutton cvbutton1">Download CV</button></a>
+    </div>
+  </div>
+</div>
+<!--This is the end of the first row and two collumns-->
+
+<!--This is the second row and two collumns-->
+<div class="cvsecondrow">
+  <div class="cvthirdcollumn"
+    <h1><p class="cvpstitle">Personal Statement</p></h1>
+  </div>
+  <div class="cvfourthcollumn"
+  <h2><p class="cvpersonalstatement">A young, confident and motivated individual who is looking for a consistent challenge with previous IT
+and customer service experience. I enjoy helping customers and solving any problems at hand by finding
+quick and reliable solutions, A great communicator when face to face with customers and strive to work
+well in any type of environment whilst keeping myself and my workflow well organized. Whatever the
+task I like to make sure I put all my effort to ensure the task is completed in a set and timely manner.</p></h2>
+  </div>
+</div>
+<!--This is the end of the second row and two collumns-->
+
+<div class="cvthirdrow">
+  <div class="cvfirthcollumn">
+
+    <p class="ksfont">HTML</p>
+    <div class="kscontainer">
+      <div class="skills html ksfont">90%</div>
+    </div>
+
+    <p class="ksfont">CSS</p>
+    <div class="kscontainer">
+      <div class="skills css ksfont">90%</div>
+    </div>
+
+    <p class="ksfont">JavaScript</p>
+    <div class="kscontainer">
+      <div class="skills js ksfont">25%</div>
+    </div>
+
+    <p class="ksfont">Python</p>
+    <div class="kscontainer">
+      <div class="skills py ksfont">10%</div>
+    </div>
+
+  </div>
+  <div class="cvsixthcollumn"
+    <h1><p class="cvpstitle">Key Skills</p></h1>
+  </div>
+</div>
+
+
+
+<div class="cvfourthrow">
+  <div class="cvseventhcollumn"
+    <h1><p class="cvpstitle">Hobbies and Interests</p></h1>
+  </div>
+  <div class="cveighthcollumn"
+  <h2><p class="cvpersonalstatement">I enjoy spending quality time or playing video games with friends. I tried to make sure I do this as much
+as possible as I love to be active. Sometimes I will try and learn how to code/program websites, games or
+apps as a part of my units at the college I am studying at. I used to previously go to the gym which was
+another thing I love doing. I find DIY another thing I like as I am able to decide and give myself a set
+timescale in which I need to complete that plan. I love watching UFC as it shows how fighting requires
+the whole body and how much skill is required to take on a fight.</p></h2>
+  </div>
+</div>
+
+
+
+
+
+<!--This is the footer which is displayed at the bottom of the website-->
+<footer>
+<p>This is made by Jordan Mal at the University of Northampton</p>
+</footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+  </body>
+</html>

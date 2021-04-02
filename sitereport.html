@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+  <head>
+
+    <!--This is the title of the page itself. This usually displays itself on the browsers tabs name-->
+    <title>Portfolio - Jordan Mal</title>
+
+    <!--This is the start of all of the stylesheet that is being used for the website-->
+    <link rel="stylesheet" href="mainstyle.css" media="screen"/>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)"/>
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen and (max-width: 800px)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+<!--This is the code for the navigation bar both for desktop and mobile view-->
+<div class="mobnav">
+  <nav id="myLinks" class="mobnav">
+  <a href="..\sourcecode\index.html">Home</a>
+  <a href="..\sourcecode\Portfolio.html">Portfolio</a>
+  <a href="..\sourcecode\Contact.html">Contact</a>
+  <a href="..\sourcecode\cv.html">CV</a>
+  <a class="active" href="..\sourcecode\sitereport.html">Site Report</a>
+</nav>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!--This is the title you see in the middle of the page-->
+<header>
+  <h2 class="title">Site Report</h2>
+</header>
+
+<h1 class="srh2">Experience with HTML & CSS</h1>
+
+<div>
+<h2 class="srh3">My Experience...</h2>
+<p class="srh3">So far I've really enjoyed making websites, and being able to learn more along the way. Since the start of college back in 2016 I had an amazing opportunity to learn so much about websites and the work that is needed to have a full functional website.
+Many times before I would attempt to make my own website but something along the way would stop me from progressing further onto it, and so I would stop the project and go back to it every so often. Now during my first term at UoN so much of that has changed, as I've
+been able to make a website with the layout I understand.</p>
+<p class="srh3">This is probably one of the best units I've done so far whilst being at UoN. I think being able to create something about yourself with multiple languages has been such a great experience, and I can not wait for me!</p>
+
+<h2 class="srh3">Positives</h2>
+<p class="srh3">Everything about websites has been one of the best things I've learn't. It's something about websites that I latch onto when it comes to creating them. Understanding what's going on and where everything is has also been one
+of those things that I've enjoyed. One of the things that was a first for me was creating more than one style sheet and having different versions based on size screen. Another thing that was a great help was a website called w3schools which provides all the help and
+customisation to run a good website. </p>
+</div>
+
+<h2 class="srh3">Negatives</h2>
+<p class="srh3" style="padding-bottom:50px;">I don't really have much to say than to make sure I prepare myself with more planning, and try to keep up-to-date with the progression of the website as I go along. Next time I want to make sure I have a more detailed report with time stamps as
+this would be a really good way of showing the level of progression through out the term and after.</p>
+</div>
+
+
+
+<!--This is the footer which is displayed at the bottom of the website-->
+<footer>
+<p>This is made by Jordan Mal at the University of Northampton</p>
+</footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+  </body>
+</html>

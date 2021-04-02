@@ -1,0 +1,31 @@
+
+nav {
+  font-family:arial;
+  overflow: hidden;
+  background-color: #333;
+  min-width: 800px;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right:solid;
+  border-width: thick;
+  border-color: purple;
+
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+nav a.active {
+  background-color: #33ccff;
+  color: white;
+}

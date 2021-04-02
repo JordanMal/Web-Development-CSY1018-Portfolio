@@ -1,0 +1,80 @@
+<!DOCTYPE>
+<html>
+  <head>
+
+    <!--This is the title of the page itself. This usually displays itself on the browsers tabs name-->
+    <title>Portfolio - Jordan Mal</title>
+
+    <!--This is the start of all of the stylesheet that is being used for the website-->
+    <link rel="stylesheet" href="mainstyle.css" media="screen"/>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)"/>
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen and (max-width: 800px)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+<!--This is the code for the navigation bar both for desktop and mobile view-->
+<div class="mobnav">
+  <nav id="myLinks" class="mobnav">
+  <a href="..\sourcecode\index.html">Home</a>
+  <a href="..\sourcecode\Portfolio.html">Portfolio</a>
+  <a class="active" href="..\sourcecode\Contact.html">Contact</a>
+  <a href="..\sourcecode\cv.html">CV</a>
+  <a href="..\sourcecode\sitereport.html">Site Report</a>
+</nav>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!--This is the title you see in the middle of the page-->
+    <header>
+      <h2 class="title">Contact Me</h2>
+    </header>
+
+<div class="container">
+  <div>
+    <h3>Contact Information:</h3>
+    <div class="row3">
+    <div class="column1">
+    <img src="..\images\myself_pic.jpg" alt="picture_of_me" style="width:200px; border-style:solid;" >
+    </div>
+
+  <div class=contactinfo>
+    <dl class="contactme">
+      <dt>My Name:</dt>
+        <dd>Jordan Mal</dd>
+      <dt>My Primary E-Mail:</dt>
+        <dd><a href="mailto:jordanmal2000@yahoo.co.uk">jordanmal2000@yahoo.co.uk</a></dd>
+      <dt>My Secondary E-Mail:</dt>
+        <dd><a href="mailto:jordanmal25@gmail.com">jordanmal25@gmail.com</a></dd>
+      <dt>My Educational E-Mail:</dt>
+        <dd><a href="mailto:jordan.mal20@my.northampton.ac.uk">jordan.mal20@my.northampton.ac.uk</a></dd>
+      <dt>Phone Number:</dt>
+        <dd><a href="tel:07792 ******"</a>07792 ******</dd>
+    </dl>
+  </div>
+
+</div>
+
+
+
+<!--This is the footer which is displayed at the bottom of the website-->
+<footer>
+<p>This is made by Jordan Mal at the University of Northampton</p>
+</footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+  </body>
+</html>
